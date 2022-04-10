@@ -20,7 +20,7 @@ Universal Adaptive Regression by Mixing (UARM) provides an adaptive model averag
 
 #### Compute weight and weight_se for candidate models using UARM with all subsets candidate models
 `LC2  <- uarm(x,y,factorID=NULL,candi_models=2,n_train=ceiling(n/2),no_rep=50,psi=0.1,`  
-`%%%method='UARM',prior=TRUE,p0=0.5)`    
+`% method='UARM',prior=TRUE,p0=0.5)`    
 `LCw2 <- LC2$weight`    
 `LCs2 <- LC2$weight_se`. 
 
