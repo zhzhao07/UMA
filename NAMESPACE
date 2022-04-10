@@ -1,0 +1,3 @@
+importFrom("stats", "AIC", "BIC", "coef", "cor.test", "hatvalues",
+                "lm", "optim", "predict", "residuals", "sd")
+exportPattern("^[[:alpha:]]+")

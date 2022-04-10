@@ -1,0 +1,16 @@
+Package: UMA
+Type: Package
+Title: Universal Model Averaging
+Version: 1.0
+Author: Li Wen <wlwendy1008@163.com>, Zhihao Zhao <zhzhao@cueb.edu.cn>, Yuhong Yang <yyang@stat.umn.edu>
+Maintainer: Li Wen <wlwendy1008@163.com>, Zhihao Zhao <zhzhao@cueb.edu.cn>
+Description: UMA provides adaptive model averaging (MA) with both linear and nonparamatric methods. It also allows the use of other averaging methods such as smoothed information criteria and Mallow's MA.
+License: GPL-2
+Imports: SOIL, BMA, randomForest, mboost, gbm, BayesTree, glmnet,
+        ncvreg, mgcv, mvtnorm, Matrix, MASS, ModelMetrics, mda,
+        quadprog, ipred, lars, plyr, stats, parallel, nnet, CatReg, grpreg
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
+Depends: R (>= 3.5.0)
+Packaged: 2022-03-27 12:17:45 UTC; zzh
