@@ -1,10 +1,13 @@
 # UMA
 This package provides adaptive model averaging (MA) with both linear and nonparamatric methods. It also allows the use of other averaging methods such as smoothed information criteria and Mallow's MA.   
-Authors: Li Wen <wlwendy1008@163.com>, Zhihao Zhao <zhzhao@cueb.edu.cn>, Yuhong Yang <yyang@stat.umn.edu>.  
+### Authors: 
+Li Wen `<wlwendy1008@163.com>`, Zhihao Zhao `<zhzhao@cueb.edu.cn>`, Yuhong Yang `<yyang@stat.umn.edu>`.  
 ### Installation
 To install this package in R, run the following commands:  
-`library(devtools)  
-devtools::install_github("zhzhao07/UMA")`  
+` `library(devtools)  
+devtools::install_github("zhzhao07/UMA")` `  
+
+
 
 ### Example usage:
 Below is an example of using the function gma, uarm, and uma.predict:  
