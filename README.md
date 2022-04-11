@@ -40,6 +40,6 @@ Universal Adaptive Regression by Mixing (UARM) provides an adaptive model averag
 `sfic.predict <- uma.predict(x,y,factorID=NULL,newdata=x,candi_models=2,`  
 `            weight=sficw,method='SFIC',dim='L')$pre_out`  
 
-#### The BMA prediction does not depend on candidate models
+##### The BMA prediction does not depend on candidate models
 `bma.predict  <- uma.predict(x,y,factorID=NULL,newdata=x,candi_models=2,`  
 `            method='BMA',dim='L')$pre_out`
