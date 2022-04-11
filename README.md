@@ -9,12 +9,15 @@ To install this package in R, run the following commands:
 
 ### Example usage:
 Below is an example of using the function gma, uarm, and uma.predict:  
- Early COVID-19 data in China  
-`library(UMA)`   
-`data(covid19)`  
-`y <- covid19[,1]`  
-`x <- covid19[,-1]`  
-`n <- length(y)`  
+generate simulation data
+`n <- 50`  
+`p <- 8`  
+`beta <- c(3,1.5,0,0,2,0,0,0)`  
+`b0 <- 1`  
+`x <- matrix(rnorm(n*p,0,1),nrow=n,ncol=p)`  
+`e <- rnorm(n,0,3)`  
+`y <- x%*%beta+b0+e`  
+
 
  The weighted estimation using L1-ARM, MMA and SFIC with all subsets candidate models  
 `Cl  <- gma(x,y,factorID=NULL,method='L1-ARM',candi_models=2)$wbetahat`  
