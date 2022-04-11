@@ -3,13 +3,13 @@ This package provides adaptive model averaging (MA) with both linear and nonpara
 Authors: Li Wen <wlwendy1008@163.com>, Zhihao Zhao <zhzhao@cueb.edu.cn>, Yuhong Yang <yyang@stat.umn.edu>.  
 ### Installation
 To install this package in R, run the following commands:  
-`library(UMA)`  
+`library(devtools)`  
 `devtools::install_github("zhzhao07/UMA")`  
 
 ### Example usage:
 Below is an example of using the function gma, uarm, and uma.predict:  
 Generate simulation data  
-`library(devtools)`  
+`library(UMA)`  
 `n <- 50`  
 `p <- 8`  
 `beta <- c(3,1.5,0,0,2,0,0,0)`  
