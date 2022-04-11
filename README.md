@@ -7,7 +7,7 @@ To install this package in R, run the following commands:
 `devtools::install_github("zhzhao07/UMA")`  
 
 ### Example usage:
-#Below is an example of using the function gma, uarm, and uma.predict:  
+Below is an example of using the function gma, uarm, and uma.predict:  
 #generate simulation data  
 `library(UMA)`  
 `n <- 50`  
