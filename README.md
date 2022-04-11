@@ -9,7 +9,7 @@ To install this package in R, run the following commands:
 
 ### Example usage:
 Below is an example of using the function gma, uarm, and uma.predict:  
-generate simulation data
+Generate simulation data  
 `n <- 50`  
 `p <- 8`  
 `beta <- c(3,1.5,0,0,2,0,0,0)`  
