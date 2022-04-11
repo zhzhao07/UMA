@@ -2,9 +2,13 @@
 Universal Adaptive Regression by Mixing (UARM) provides an adaptive model averaging with both linear models and nonparamatric methods considered as candidates. The nonparamatric methods include Generalized Boosted Regression modeling (GBM), L2Boosting (L2B), Random Forests (RF), Bagging (BAG), and Bayesian Additive Regression Trees (BART) on low-dimensional inputs.
 
 
-## Example
-
+### Installation
+To install this package in R, run the following commands:
+`library(devtools) `  
 `devtools::install_github("zhzhao07/UMA")`  
+
+### Example usage:
+Below is an example of using the function gma, uarm, and uma.predict  
 #### Early COVID-19 data in China
 `data(covid19)`  
 `y <- covid19[,1]`  
