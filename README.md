@@ -1,7 +1,5 @@
 # UMA
-This package provides adaptive model averaging (MA) with both linear and nonparamatric methods. It also allows the use of other averaging methods such as smoothed information criteria and Mallow's MA. Universal Adaptive Regression by Mixing (UARM) provides an adaptive model averaging with both linear models and nonparamatric methods considered as candidates. The nonparamatric methods include Generalized Boosted Regression modeling (GBM), L2Boosting (L2B), Random Forests (RF), Bagging (BAG), and Bayesian Additive Regression Trees (BART) on low-dimensional inputs, and nonparamatric methods considered as candidates (Generalized Boosted Regression modeling (GBM), L2Boosting (L2B) and Random Forests (RF)) on high-dimensional inputs.
-
-
+This package provides adaptive model averaging (MA) with both linear and nonparamatric methods. It also allows the use of other averaging methods such as smoothed information criteria and Mallow's MA. Author: Li Wen <wlwendy1008@163.com>, Zhihao Zhao <zhzhao@cueb.edu.cn>, Yuhong Yang <yyang@stat.umn.edu>.  
 ### Installation
 To install this package in R, run the following commands:  
 `library(devtools)`  
