@@ -34,7 +34,7 @@ Generate simulation data
 `LC2  <- uarm(x,y,factorID=NULL,candi_models=2,n_train=ceiling(n/2),no_rep=50,psi=0.1,`  
 `        method='UARM',prior=TRUE,p0=0.5)`    
 `LCw2 <- LC2$weight`    
-`LCs2 <- LC2$weight_se`. 
+`LCs2 <- LC2$weight_se`  
 
  Compute weight and weight_se for model using MMA and SFIC with all subsets candidate models  
 `mmaw <- gma(x,y,factorID=NULL,method='MMA',candi_models=2)$weight`    
